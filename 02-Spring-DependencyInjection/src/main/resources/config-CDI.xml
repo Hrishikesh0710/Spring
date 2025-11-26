@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+	
+	
+	<bean id="myPerson" class="com.constDI.Person">
+	<constructor-arg value="Hrishi"></constructor-arg>
+	<constructor-arg value="23"></constructor-arg>
+	
+	</bean>
+	
+	<bean id="myStudent" class="com.constDI.list.Student">
+	<constructor-arg value="Hrishi"></constructor-arg>
+	<constructor-arg value="238327262"></constructor-arg>
+	<constructor-arg >
+	<list>
+	
+	<value>Java</value>
+	<value>Spring</value>
+	<value>Html</value>
+	<value>JS</value>
+
+	</list>
+	</constructor-arg>
+	</bean>
+
+	<bean id="myShop" class="com.constDI.map.Shop">
+	<constructor-arg value="VijaySales"></constructor-arg>
+	<constructor-arg >
+	<map>
+	<entry key="Iphone" value="2000000"></entry>
+	<entry key="SamsungTV" value="20000"></entry>
+	<entry key="PS5" value="450000"></entry>
+	<entry key="Tablet" value="50000"></entry>
+	<entry key="MackBook" value="80000"></entry>
+	
+	</map>
+	
+	</constructor-arg>
+	
+	</bean>
+	
+	<bean id="myEngine" class="com.constDI.Obj.Engine">
+    <constructor-arg value="500.50" />
+	</bean>
+
+	<bean id="myCar" class="com.constDI.Obj.Car">
+    <constructor-arg value="BMW" />
+    <constructor-arg value="4000000" />
+    <constructor-arg ref="myEngine" />
+	</bean>
+
+	
+	
+
+</beans>
