@@ -3,8 +3,8 @@ package com.constDI.list;
 import java.util.List;
 
 public class Student {
-	public String name ;
-	public long phone;
+	private String name ;
+	private long phone;
 	List<String>subjects;
 	
 	

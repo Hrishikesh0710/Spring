@@ -3,7 +3,7 @@ package com.constDI.map;
 import java.util.Map;
 
 public class Shop {
-		public String name;
+		private String name;
 		Map<String , Integer> items;
 		
 		public void display() {
