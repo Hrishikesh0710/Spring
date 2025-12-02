@@ -1,4 +1,4 @@
-package com.listMap;
+package com.listandmap;
 
 import java.util.Map;
 

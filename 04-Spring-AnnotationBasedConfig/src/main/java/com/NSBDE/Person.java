@@ -1,4 +1,4 @@
-package com.bean;
+package com.NSBDE;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

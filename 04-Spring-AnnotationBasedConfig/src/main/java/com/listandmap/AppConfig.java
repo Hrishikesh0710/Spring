@@ -1,4 +1,4 @@
-package com.listMap;
+package com.listandmap;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "com.listMap")
+@ComponentScan(basePackages = "com.listandmap")
 public class AppConfig {
 	
 	@Bean

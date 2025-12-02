@@ -1,4 +1,4 @@
-package com.bean;
+package com.NSBDE;
 
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

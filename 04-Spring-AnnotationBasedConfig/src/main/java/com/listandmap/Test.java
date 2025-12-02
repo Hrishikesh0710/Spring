@@ -1,4 +1,4 @@
-package com.listMap;
+package com.listandmap;
 
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

@@ -1,4 +1,4 @@
-package com.bean;
+package com.NSBDE;
 
 public class Address {
 	public void add() {
